@@ -1,0 +1,6 @@
+.section {
+    height: 200px;
+    background: lightgray;
+    margin: 10px 0;
+    border: 1px solid red;
+}

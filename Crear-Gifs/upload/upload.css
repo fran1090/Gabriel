@@ -1,0 +1,294 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 0;
+    opacity: 100%;
+    line-height: 18px;
+    font-size: 16px;
+    color: #110038;
+}
+
+#body{
+    width: 100%;
+    height: auto;
+    background-color: #FFF4FD;
+}
+
+.secciones {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitasN {
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    display: flex;
+    align-items: center;
+}
+
+.visitasTexto {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.logoBtn {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoFlecha{
+    display: flex;
+    align-items: center;
+}
+
+.flecha{
+    margin-right: 10px;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+}
+
+.cajaCrearGuifos{
+    width: 680px;
+    height: 400px;
+}
+
+.tituloCrearGuifos {
+    font-size: 12px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuerpoCrearGuifos{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; 
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenventana{
+    width: 15%;
+    height: 100%;
+}
+
+.ventanaW {
+    margin: 25px 0 0 40px;
+}
+
+.textoCrearGuifos{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textoCuerpoGif{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.instruccionesCuerpoGif{
+    width: 90%;
+    height: 60%;
+}
+
+.botonesCrearGuifos{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.botonCrear {
+    width: 20%;
+    height: 40%;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin-right: 40px;
+}
+
+.barra{
+    width: 90%;
+    height: 40px;
+    background-color: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    display: flex;
+    align-items: center;
+    margin: 70px 0px 50px 0px;
+}
+
+.cajaDeGuif{
+    width: 90%;
+    height: 1000px;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.GuifosMios{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+
+.foto{
+    width: 95%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+.cajabtn{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.startRec{
+    width: 25%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #110038;
+    background: #F7C9F3;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.logoCamara {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtcaptura{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenCamara{
+    width:95%;
+    height: 80%;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    margin-top: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.canvas{
+    width: 100%;
+    height: 100%;
+}
+
+.startRec2{
+    width: 25%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.subiendo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.cajaGS{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.GuifListo{
+    width: 40%;
+    height: 80%;
+}
+
+.Guifok{
+    width: 100%;
+    height: 100%;
+}
+
+.boxBtn{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin-left: -80px;
+}
+
+.cajaBotonL{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btnCopiar{
+    width: 90%;
+    height: 20%;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.btnListo{
+    width: 25%;
+    height: 35%;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin-right:50px;
+}

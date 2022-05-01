@@ -1,0 +1,33 @@
+@echo off
+
+d:
+
+calc.exe
+
+pause
+echo  *****  *****  *****  *****  *****  *****  ***** 
+echo                ¿Como te quedo el ojo?  
+echo  *****  *****  *****  *****  *****  *****  ***** 
+pause
+
+set/p   Pre=quiere salir?  : 
+
+cls
+echo  *****  *****  *****  *****  *****  *****  ***** 
+echo               igual cierro
+echo  *****  *****  *****  *****  *****  *****  ***** 
+pause 
+cls
+
+
+
+echo ***********Pero antes la Magia!!!!!!******
+
+start    D:\BAT.txt
+
+pause 
+
+
+
+exit
+
